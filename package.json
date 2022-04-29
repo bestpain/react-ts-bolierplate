@@ -33,3 +33,16 @@
     "webpack-merge": "^5.8.0"
   }
 }
+{
+  "presets": [
+    "@babel/preset-env",
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic"
+      }
+    ],
+    "@babel/preset-typescript"
+  ]
+}
+
